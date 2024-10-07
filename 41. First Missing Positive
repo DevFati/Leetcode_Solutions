@@ -18,7 +18,6 @@ Input: nums = [7,8,9,11,12]
 Output: 1
 Explanation: The smallest positive integer 1 is missing.*/
 
-
 class Solution {
     public int firstMissingPositive(int[] nums) {
      Arrays.sort(nums);
